@@ -11,10 +11,10 @@ namespace HackerRank
         }
 
         
-        public static void  BriBirthdayCakeCandles()
+        static void  BriBirthdayCakeCandles()
         {
             int n = int.Parse(Console.ReadLine());
-            int[] candles = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
+            int[] candles = Array.ConvertAll(Console.ReadLine().Trim().Split(' '), int.Parse);
 
             int maxHeight = 0;
             int maxHeightCandles = 0;
